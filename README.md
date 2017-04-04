@@ -1,6 +1,5 @@
 # ESP32_RCWController_Test
 
----
 
 ESP32/ESP-WROOM-32とRCWControllerを接続するテストプログラムです。<br>
 RCWControllerは、Michio Onoさん作成のiOSで動作するゲームパッド風インターフェイスを持ったコントローラーアプリです。
