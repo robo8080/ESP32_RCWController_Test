@@ -23,7 +23,7 @@ RCWControllerは、Michio Onoさん作成のiOSで動作するゲームパッド
  5. IPアドレスの設定が出るので先ほどメモしたIPアドレスとポート番号を指定してConnectボタンを押します。<br>
 ![画像2](images/RCWController2.png)<br><br>
  6. うまく接続出来ればRCWControllerを操作するとArduino IDEのシリアルモニタに受信データが表示されます。<br><br>
-![画像3](images/RCWController3.png)<br><br>
+![画像3](images/RCWController3.png)<br>
 <br>
 
 ### RCWControllerデータフォーマット ###
