@@ -46,6 +46,9 @@ void loop() {
     memcpy( &controller.data[0], packetBuffer, sizeof(controller)); 
     Serial.printf("DATA:%02X %02X %d %d %d %d %d %d %d %02X\n\r",controller.data[0],controller.data[1],controller.data[2],controller.data[3],controller.data[4],
                                                                controller.data[5],controller.data[6],controller.data[7],controller.data[8],controller.data[9]);
+    if (controller.status.A) { Serial.println("Button A : ON"); }
+    else                     { Serial.println("Button A : OFF"); }
+    Serial.printf("Left Analog LR : %d\n\r",controller.status.LeftAnalogLR);
   }
   
 }
